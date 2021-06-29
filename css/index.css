@@ -1,0 +1,184 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: hsl(0, 0%, 95%);
+}
+.card{
+  width: 70%;
+  height: 60%;
+  margin: 85px 50px 100px 220px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: center;
+}
+.card-body:first-child{
+  background: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+  width: auto;
+  height: 35%;
+}
+.card-body:first-child button:hover{
+  color: hsl(0, 0%, 95%);
+}
+.card-body:first-child button{
+  color: hsl(31, 77%, 52%);
+}
+.card-body:nth-child(2){
+  background: hsl(184, 100%, 22%);
+  width: auto;
+  height: 35%;
+}
+.card-body:nth-child(2) button{
+  color: hsl(184, 100%, 22%);
+}
+.card-body:nth-child(2) button:hover{
+  color: hsl(0, 0%, 95%);
+}
+.card-body:last-child{
+  background: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+  width: auto;
+  height: 35%;
+}
+.card-body:last-child button{
+  color:hsl(179, 100%, 13%);
+}
+.card-body:last-child button:hover{
+  color:hsl(0, 0%, 95%);
+}
+img{
+  margin-left: 40px;
+  margin-top: 50px;
+}
+h1{
+  color: hsl(0, 0%, 95%);
+  font-family: Big Shoulders Display, cursive;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 30px 0px 30px 50px;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: Lexend Deca, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  text-align: left;
+  margin: 0px 55px 80px 50px;
+}
+
+button{
+  background: hsl(0, 0%, 95%);
+  border-radius: 35px;
+  font-family: Lexend Deca, sans-serif;
+  font-size: 15px;
+  margin: 0px 0px 50px 50px;
+  padding: 12px 30px 12px 30px;
+}
+button:hover{
+  background: inherit;
+  color: hsl(0, 0%, 95%);
+  font-family: Lexend Deca;
+  font-size: 15px;
+  cursor: pointer;
+  border: 2px solid hsl(0, 0%, 95%);
+  margin: 0px 0px 50px 50px;
+  padding: 12px 30px 12px 30px;
+}
+@media screen and (max-width: 600px){
+  *{
+    box-sizing: border-box;
+  }
+  body{
+    background: hsl(0, 0%, 95%);
+  }
+  .card{
+    width: 80%;
+    height: 90%;
+    margin: 70px 50px 50px 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+  }
+  .card-body:first-child{
+    background: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0px 0px;
+    width: auto;
+    height: 35%;
+  }
+  .card-body:first-child button:hover{
+    color: hsl(0, 0%, 95%);
+  }
+  .card-body:first-child button{
+    color: hsl(31, 77%, 52%);
+  }
+  .card-body:nth-child(2){
+    background: hsl(184, 100%, 22%);
+    width: auto;
+    height: 35%;
+  }
+  .card-body:nth-child(2) button{
+    color: hsl(184, 100%, 22%);
+  }
+  .card-body:nth-child(2) button:hover{
+    color: hsl(0, 0%, 95%);
+  }
+  .card-body:last-child{
+    background: hsl(179, 100%, 13%);
+    border-radius: 0px 0px 10px 10px;
+    width: auto;
+    height: 35%;
+  }
+  .card-body:last-child button{
+    color:hsl(179, 100%, 13%);
+  }
+  .card-body:last-child button:hover{
+    color:hsl(0, 0%, 95%);
+  }
+  img{
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  h1{
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display, cursive;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 30px 0px 30px 50px;
+  }
+  p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: left;
+    margin: 0px 60px 30px 50px;
+  }
+
+  button{
+    background: hsl(0, 0%, 95%);
+    border-radius: 35px;
+    font-family: Lexend Deca, sans-serif;
+    font-size: 15px;
+    margin: 0px 0px 50px 50px;
+    padding: 12px 30px 12px 30px;
+  }
+  button:hover{
+    background: inherit;
+    color: hsl(0, 0%, 95%);
+    font-family: Lexend Deca;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+    margin: 0px 0px 50px 50px;
+    padding: 12px 30px 12px 30px;
+  }
+}
