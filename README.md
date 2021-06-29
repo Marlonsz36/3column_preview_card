@@ -21,7 +21,7 @@
 
 ### What I learned
 
-In this challenge i learned more about css in responsive design using flexbox properties and discovering new forms to apply colors to a grayscale image.
+In this challenge i learned more about css in responsive design using flexbox properties.
 
 
 ### Continued development
